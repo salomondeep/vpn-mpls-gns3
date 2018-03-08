@@ -1,0 +1,39 @@
+Mar 08 23:14:13.493 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Mar 08 23:14:13.494 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61657.
+Mar 08 23:14:13.994 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 08 23:14:13.995 HYPERVISOR: exec_cmd: hypervisor uuid 
+Mar 08 23:14:13.996 HYPERVISOR: exec_cmd: hypervisor working_dir E:/anno 3/semestre 2/LTI/pratica/aula 2/L3VPN rev/vpn-mpls-gns3/L3VPN\project-files\dynamips 
+Mar 08 23:14:13.996 GENERAL: working_dir=E:/anno 3/semestre 2/LTI/pratica/aula 2/L3VPN rev/vpn-mpls-gns3/L3VPN\project-files\dynamips
+Mar 08 23:14:13.997 HYPERVISOR: exec_cmd: vm create R6 7 c2691 
+Mar 08 23:14:13.999 VM: VM R6 created.
+Mar 08 23:14:14.001 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 2007 
+Mar 08 23:14:14.002 HYPERVISOR: exec_cmd: c2691 get_mac_addr R6 
+Mar 08 23:14:14.003 HYPERVISOR: exec_cmd: vm set_ram R6 192 
+Mar 08 23:14:14.004 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 16 WIC-2T 
+Mar 08 23:14:14.005 HYPERVISOR: exec_cmd: vm get_status R6 
+Mar 08 23:14:14.005 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60a48cb8 
+Mar 08 23:14:14.006 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 32 WIC-2T 
+Mar 08 23:14:14.008 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Mar 08 23:14:14.009 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Mar 08 23:14:14.010 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 48 WIC-2T 
+Mar 08 23:14:14.011 HYPERVISOR: exec_cmd: vm set_ios R6 D:/Documents/Virtual Machines/c2691-adventerprisek9-mz.124-25d.image 
+Mar 08 23:14:14.012 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Mar 08 23:14:14.013 HYPERVISOR: exec_cmd: vm get_status R6 
+Mar 08 23:14:14.014 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-4T 
+Mar 08 23:14:14.020 HYPERVISOR: exec_cmd: vm set_config R6 configs/i7_startup-config.cfg 
+Mar 08 23:14:14.021 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Mar 08 23:14:14.022 HYPERVISOR: exec_cmd: vm set_ghost_file R6 c2691-adventerprisek9-mz.124-25d.image-192.ghost 
+Mar 08 23:14:23.985 HYPERVISOR: exec_cmd: nio create_udp udp-8ea0d905-a91d-4432-aa86-9cab0f75f15a 10002 127.0.0.1 10003 
+Mar 08 23:14:23.993 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-8ea0d905-a91d-4432-aa86-9cab0f75f15a 
+Mar 08 23:14:23.994 HYPERVISOR: exec_cmd: vm get_status R6 
+Mar 08 23:15:53.353 HYPERVISOR: exec_cmd: vm extract_config R6 
+Mar 08 23:16:28.395 HYPERVISOR: exec_cmd: vm rename R6 A_CE2 
+Mar 08 23:20:53.408 HYPERVISOR: exec_cmd: vm extract_config A_CE2 
+Mar 08 23:21:16.551 HYPERVISOR: exec_cmd: vm extract_config A_CE2 
+Mar 08 23:21:21.952 HYPERVISOR: exec_cmd: vm get_status A_CE2 
+Mar 08 23:21:21.954 HYPERVISOR: exec_cmd: vm extract_config A_CE2 
+Mar 08 23:21:21.955 HYPERVISOR: exec_cmd: vm delete A_CE2 
+Mar 08 23:21:21.955 VM: VM A_CE2 destroyed.
+Mar 08 23:21:21.965 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 08 23:21:21.968 HYPERVISOR: Stopped.
+Mar 08 23:21:21.968 GENERAL: reset done.
